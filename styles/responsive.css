@@ -1,0 +1,101 @@
+@media (min-width: 23.5rem) {
+    body {
+        display: flex;
+        justify-content: center;
+        background-color: var(--blue700);
+    }
+
+    .content {
+        width: 92%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-block: 1.5rem;
+        padding-block: 1.5rem;
+        background-color: var(--white);
+        border-radius: .5rem;
+    }
+
+    .content>img {
+        content: url("/assets/images/illustration-sign-up-tablet.svg");
+        width: inherit;
+    }
+
+    .info-signup {
+        width: inherit;
+    }
+
+}
+
+@media(min-width: 48rem) {
+    .info>h1 {
+        font-size: 3rem;
+    }
+
+    .form-info>label {
+        font-size: .70rem;
+        font-weight: 700;
+    }
+
+}
+
+@media(min-width: 64rem) {
+    body {
+        height: 100vh;
+        align-items: center;
+        font-size: .85rem;
+    }
+
+    .content {
+        width: 49.5rem;
+        height: 34rem;
+        flex-direction: row-reverse;
+        padding-inline: 1.3rem;
+        padding-block: 0;
+        border-radius: 2rem;
+
+    }
+
+    .content>img {
+        content: url("/assets/images/illustration-sign-up-desktop.svg");
+        width: 21.4rem;
+    }
+
+    .info-signup {
+        padding-block-end: 4rem;
+        padding-inline-end: 1.5rem;
+    }
+
+    .info>* {
+        margin-block: 1rem;
+    }
+
+    .info ul li {
+        line-height: 1rem;
+    }
+
+    .info ul li>img {
+        margin-inline-end: .8rem;
+    }
+
+    .form-info>input {
+        height: 3rem;
+        font-size: .85rem;
+    }
+
+    .form button {
+        height: 3rem;
+        font-size: .8rem;
+    }
+
+    footer {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        color: var(--white);
+    }
+
+    footer a {
+        color: var(--red);
+    }
+}
