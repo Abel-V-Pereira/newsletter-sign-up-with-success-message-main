@@ -21,6 +21,10 @@ body {
     color: var(--blue800);
 }
 
+.content {
+    box-shadow: var(--shadow1) 0px 13px 27px -5px, var(--shadow2) 0px 8px 16px -8px;
+}
+
 .info-signup {
     margin-inline: 1.5rem;
     margin-block-start: 1.7rem;

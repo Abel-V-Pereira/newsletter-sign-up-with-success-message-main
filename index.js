@@ -27,8 +27,6 @@ function handleSubmit(e) {
         errorMessage.textContent = "Please provide a valid email address";
         emailInput.classList.add('active');
     }
-
-    console.log(email);
 }
 
 form.addEventListener('submit', handleSubmit);
