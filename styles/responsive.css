@@ -17,7 +17,7 @@
     }
 
     .content>img {
-        content: url("/assets/images/illustration-sign-up-tablet.svg");
+        content: url("../assets/images/illustration-sign-up-tablet.svg");
         width: inherit;
     }
 
@@ -57,7 +57,7 @@
     }
 
     .content>img {
-        content: url("/assets/images/illustration-sign-up-desktop.svg");
+        content: url("../assets/images/illustration-sign-up-desktop.svg");
         width: 21.4rem;
     }
 
